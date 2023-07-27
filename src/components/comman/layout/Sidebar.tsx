@@ -11,6 +11,7 @@ function Sidebar() {
     <>
       <button onClick={() => handleClick("/")}>dashboard</button>
       <button onClick={() => handleClick("/devices")}>devices</button>
+      <button onClick={() => handleClick("/login")}>devices</button>
     </>
   );
 }
