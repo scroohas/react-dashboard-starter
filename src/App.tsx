@@ -5,6 +5,8 @@ import Login from "./components/pages/Login";
 import Home from "./components/pages/home/Home";
 import Devices from "./components/pages/devices/Devices";
 
+console.log(import.meta.env.VITE_BACKEND_URL)
+
 function App() {
   const router = createBrowserRouter([
     {
